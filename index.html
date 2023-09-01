@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3 id="turn-x">It is now player X's turn</h3>
+          <h3 id="turn-o">It is now player O's turn</h3>
+        </div>
+      </div>
+      <br>
+      <div class="row bored justify-content-center">
+        <div class="col-4" id="1-1"></div>
+        <div class="col-4" id="1-2"></div>
+        <div class="col-4" id="1-3"></div>
+      </div>
+      <div class="row bored justify-content-center">
+        <div class="col-4" id="2-1"></div>
+        <div class="col-4" id="2-2"></div>
+        <div class="col-4" id="2-3"></div>
+      </div>
+      <div class="row bored justify-content-center">
+        <div class="col-4" id="3-1"></div>
+        <div class="col-4" id="3-2"></div>
+        <div class="col-4" id="3-3"></div>
+      </div>
+      <br>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <form>
+            <button type="submit" class="btn btn-primary">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
