@@ -1,1 +1,3 @@
-# Week-11-JQuery_and_AJAX
+# Tic-Tac-Toe App
+
+A simple webapp for playing tic-tac-toe
